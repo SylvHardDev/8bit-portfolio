@@ -4,8 +4,6 @@ import { Spacing } from "./Spacing";
 export default function Home() {
   return (
     <main className="text-black">
-      <Spacing />
-
       <section className="max-w-2xl px-4 m-auto">
         <h1 className="text-center">
           Welcome, Are you looking for a{" "}
