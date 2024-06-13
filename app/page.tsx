@@ -1,16 +1,24 @@
+import Image from "next/image";
+import { Spacing } from "./Spacing";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4 p-24">
-      <section className="max-w-4xl px-4 m-auto">
-        <h1>
+    <main className="text-black">
+      <Spacing />
+
+      <section className="max-w-2xl px-4 m-auto">
+        <h1 className="text-center">
           Welcome, Are you looking for a{" "}
           <span className="line-through text-lg font-bold hover:underline">
-            frontend
+            fullstack
           </span>{" "}
           developer !
         </h1>
       </section>
-      <section className="max-w-4xl px-4 m-auto">
+
+      <Spacing />
+
+      <section className="max-w-2xl px-4 m-auto">
         <div className="nes-container with-title is-centered bg-blue-200">
           <p className="title">About Me ?</p>
           <p>
@@ -19,8 +27,18 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="max-w-4xl px-4 m-auto">
-        <div className="nes-container is-rounded bg-white">
+
+      <Spacing />
+
+      <section className="max-w-2xl px-4 m-auto">
+        <div className="nes-container is-rounded bg-white flex flex-col items-center">
+          <Image
+            width={100}
+            height={100}
+            src={"/axe-and-shield.webp"}
+            alt="a shield image"
+          />
+
           <p className="text-center">These are my skills:</p>
 
           <div className="flex items-center justify-center flex-wrap gap-2">
@@ -47,7 +65,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="max-w-4xl px-4 m-auto flex gap-3">
+
+      <Spacing />
+
+      <section className="max-w-2xl px-4 m-auto flex gap-3">
         <div className="nes-container is-rounded">
           <p>Good morning. Thou hast had a good night&apos;s sleep, I hope.</p>
         </div>
@@ -55,6 +76,8 @@ export default function Home() {
           <p>Good morning. Thou hast had a good night&apos;s sleep, I hope.</p>
         </div>
       </section>
+
+      <Spacing />
     </main>
   );
 }
