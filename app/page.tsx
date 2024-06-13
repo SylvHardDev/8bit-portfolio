@@ -65,17 +65,6 @@ export default function Home() {
       </section>
 
       <Spacing />
-
-      <section className="max-w-2xl px-4 m-auto flex gap-3">
-        <div className="nes-container is-rounded">
-          <p>Good morning. Thou hast had a good night&apos;s sleep, I hope.</p>
-        </div>
-        <div className="nes-container is-rounded">
-          <p>Good morning. Thou hast had a good night&apos;s sleep, I hope.</p>
-        </div>
-      </section>
-
-      <Spacing />
     </main>
   );
 }
