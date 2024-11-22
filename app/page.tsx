@@ -20,7 +20,7 @@ export default function Home() {
         <div className="nes-container with-title is-centered bg-blue-200">
           <p className="title">About Me ?</p>
           <p>
-            I&apos;m Mihajatiana, a guy who is passionate about technology and
+            I&apos;m Hardy, a guy who is passionate about technology and
             indeed about creative design.
           </p>
         </div>
