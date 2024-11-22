@@ -29,13 +29,13 @@ export default function Header() {
               Contact the Mighty Horde!
             </p>
             <div className="flex items-center justify-center gap-2">
-              <a href="#" type="button" className="nes-btn">
+              <a href="https://www.facebook.com/profile.php?id=100072669930783&locale=fr_FR" type="button" className="nes-btn">
                 <i className="nes-icon facebook is-small"></i>
               </a>
-              <a href="#" type="button" className="nes-btn">
+              <a href="https://github.com/SylvHardDev" type="button" className="nes-btn">
                 <i className="nes-icon github is-small"></i>
               </a>
-              <a href="#" type="button" className="nes-btn">
+              <a href="mailto:hardsyldev@gmail.com" type="button" className="nes-btn">
                 <i className="nes-icon gmail is-small"></i>
               </a>
             </div>
