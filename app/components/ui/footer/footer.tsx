@@ -21,26 +21,34 @@ export default function Footer() {
 
               <Link href={"#"}>
                 <div className="nes-container is-dark with-title">
-                  <p className="title">Airbnb-clone</p>
-                  <p>Airbn qdfj Lorem ipsum dolor sit amet consectetur</p>
+                  <p className="title">
+                    Application de Gestion d&apos;Ordonnances
+                  </p>
+                  <p>
+                    Application mobile permettant la numérisation
+                    d&apos;ordonnances
+                  </p>
                 </div>
               </Link>
 
               <Link href={"#"}>
                 <div className="nes-container with-title">
-                  <p className="title">My Portfolio-V1</p>
+                  <p className="title">
+                    Application de Consultation Médicale en ligne et Mobil{" "}
+                  </p>
                   <p>
-                    Good morning. Thou hast had a good nights sleep, I hope.
+                    Applications cross-platform pour la communication patient et
+                    professionnel de santé.
                   </p>
                 </div>
               </Link>
 
               <Link href={"#"}>
                 <div className="nes-container is-dark with-title">
-                  <p className="title">Front end challenge</p>
+                  <p className="title">Gestion Financière</p>
                   <p>
-                    Good morning. Thou hast had a good s sle psleepsleep, I
-                    hope.
+                    Application web permettant de suivre les finances de notre
+                    école.
                   </p>
                 </div>
               </Link>
